@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS: Contacto</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Titulo</h1>
+      <h2>Subtítulo</h2>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./contacto.html" class='paginaActual'>Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside>
+      <ul>
+        <li><img src="./img/gat.jpg" alt="foto" /></li>
+        <li>Nombre</li>
+        <li>Edad</li>
+        <li>Ciudad</li>
+        <li>
+          RRSS:
+          <ul>
+            <li><a href="https://www.facebook.com/"></a></li>
+            <li><a href="https://www.instagram.com/"></a></li>
+          </ul>
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <form action="" method="GET">
+        <h2>Contacto</h2>
+
+        <fieldset>
+          <legend>Datos de personales</legend>
+
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name" required autofocus />
+
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+
+          <label for="url">URL</label>
+          <input
+            type="url"
+            name="url"
+            id="url"
+            placeholder="Escribe la URL de tu página web personal"
+          />
+
+          <label for="date">Fecha de nacimiento</label>
+          <input type="date" name="date" id="date" />
+
+          <label for="phone">Teléfono</label>
+          <input type="tel" name="phone" id="phone" />
+
+          <label for="about">Comentarios</label>
+          <textarea
+            name="about"
+            id="about"
+          ></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Tiempo</legend>
+
+          <label for="time">Tiempo</label>
+          <input type="time" name="time" id="time" />
+
+          <label for="datetime">Fecha y hora</label>
+          <input type="datetime-local" name="datetime" id="datetime" />
+          <label for="month">Mes</label>
+          <input type="month" name="month" id="month" />
+
+          <label for="week">Semana</label>
+          <input type="week" name="week" id="week" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Búsqueda</legend>
+
+          <label for="search">Buscar</label>
+          <input type="search" name="search" id="search" />
+
+          <label for="number">Número</label>
+          <input type="number" name="number" id="number" min="-10" max="10" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Favoritos</legend>
+
+          <label for="color">Color favorito</label>
+          <input type="color" name="color" id="color" />
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <p><a href="www.worldsurfleague.com">WSL</a></p>
+        <p><a href="https://www.fesurf.es/">FESurfing</a></p>
+    </footer>
+  </body>
+</html>
